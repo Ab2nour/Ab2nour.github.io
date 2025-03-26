@@ -419,6 +419,9 @@ main {
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+  font-size: 10px;
 }
 
 .contact-info :is(.contact-link, time, address) {
@@ -788,7 +791,7 @@ main {
 
 .timeline-item { position: relative; }
 
-.timeline-item:not(:last-child) { margin-bottom: 20px; }
+.timeline-item:not(:last-child) { margin-bottom: 40px; }
 
 .timeline-item-title {
   font-size: var(--fs-6);
