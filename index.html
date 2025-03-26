@@ -99,6 +99,20 @@
           <li class="contact-item">
 
             <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <time datetime="1982-06-23"><a href="https://github.com/ab2nour/" style="display: inline; color: var(--white-2);">ab2nour</a></time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
 
@@ -132,7 +146,7 @@
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+      <nav class="navbar" style="display: none;">
 
         <ul class="navbar-list">
 
@@ -160,157 +174,181 @@
 
 
 
-      <!--
-        - #ABOUT
-      -->
+
 
       <article class="about  active" data-page="about">
 
-        <header>
-          <h2 class="h2 article-title" style="text-transform:none;">Présentation</h2>
+       <header>
+          <h2 class="h2 article-title">Resume</h2>
         </header>
 
         <section class="about-text">
-          <div style="display: flex; justify-content: center; padding: 20px 10px 40px;">
-          <iframe style="border-radius: 15px; width: 100%; aspect-ratio: 16 / 9;"  src="https://www.youtube-nocookie.com/embed/7FIIqDBvSMw" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+          <p>I'm Abdenour, a Junior Machine Learning Engineer.</p>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="business-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
           </div>
-          <p>
-            Je suis Abdenour, Machine Learning Engineer (Paris, France). Je joue un style percussif et très rythmique, inspiré du flamenco, pour accompagner les morceaux que je chante.
-          </p>
 
-          <p>
-            Je viens mettre l'ambiance sur scène, dans les bars et les restaurants, ou bien dans la rue, seul ou accompagné. Préparez-vous : jamais aucun public n'a su résister à la tentation de chanter avec moi !
-          </p>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Engineer Work/Study Intern</h4>
+
+              <span>Sept 2023 - Sept 2024</span>
+
+              <p class="timeline-text">
+                ST Microelectronics<br><br>
+                • Optimized electronics simulations by reducing runtime from 25h to under 3h while maintaining accuracy within 3%, leveraging Multi-Regression models, Deep Neural Networks, and parallelization with Scikit-Learn, TensorFlow & Joblib.<br><br>
+                • Established the mathematical modeling of the problem by defining key elements such as domains and objective functions, collaborating with PhDs and electronics experts to ensure theoretical rigor and industry alignment<br><br>
+                • Enhanced research team collaboration by developing and deploying comprehensive technical documentation (Sphinx, LaTeX) covering both successful and unsuccessful algorithms used throughout the project<br><br>
+                • Delivered multiple presentations on the project alongside PhDs at internal conferences with 500+ attendees, including a senior executive (CEO -3 level)</p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Engineer Intern</h4>
+
+              <span>May 2023 - Sept 2023</span>
+
+              <p class="timeline-text">
+                ST Microelectronics<br><br>
+                • Developed a Deep Reinforcement Learning prototype to compare RL with traditional optimization algorithms in high-dimensional search spaces with Actor-Critic<br><br>
+                • Designed an interactive dashboard to visualize agent trajectories on dimension-reduced data (UMAP, t-SNE, Kernel PCA), enhancing interpretability of both RL and optimization algorithms
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Private Tutor & Educational Content Creator (Python and Algorithms)</h4>
+
+              <span>2020 – 2021</span>
+
+              <p class="timeline-text">
+                • Launched an educational YouTube channel on the subject, reaching 19K views and 1,300+ hours of watch time<br><br>
+                • Taught intensive private lessons for several months to top-tier science foundation students (PCSI, PC, BCPST)<br><br>
+                • Designed personalized learning programs and created comprehensive course materials, including exercises and detailed corrections
+              </p>
+
+            </li>
+
+          </ol>
+
         </section>
 
-        <section class="blog-posts">
-          <h3 class="h3 service-title">Galerie</h3>
+        <section class="timeline">
 
-          <ul class="blog-posts-list">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bulb-outline"></ion-icon>
+            </div>
 
-            <li class="blog-post-item">
-              <a href="#">
+            <h3 class="h3">Projects</h3>
+          </div>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/guitar-2.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+          <ol class="timeline-list">
 
-                <div class="blog-content">
+            <li class="timeline-item">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Grenoble</p>
+              <h4 class="h4 timeline-item-title">Technological startup project: “Projet Clovis”</h4>
 
-                    <span class="dot"></span>
+              <span>2018 – current</span>
 
-                    <time datetime="2022-02-23">2025</time>
-                  </div>
-
-                  <h4 class="h4 blog-item-title">Brasserie - Rock acoustique</h4>
-
-                  <p class="blog-text">
-                    Atmosphère énergique : serveurs et clients qui chantent avec moi le rock'n'roll, à Au Bureau !
-                  </p>
-
-                </div>
-
-              </a>
+              <p class="timeline-text">
+                • Built & scaled a full-stack EdTech platform (mobile & web) enabling students to create flashcards and study through interactive mini-games.<br><br>
+                • Grew the platform to 350+ active users, with 40,000+ flashcards and 2,200+ study sheets created.<br><br>
+                • Pitched the project in front of 100+ people at major events (Le Village by CA, digiSchool HYPE Awards 2018), with a featured video on YouTube.<br><br>
+                • Led development over 5+ years, from inception at 17 years old to a fully maintained large-scale project.<br><br>
+                • Tech stack: Python (Django), SQL, TypeScript (jQuery, React), PHP.<br><br>
+                • Managed databases & analytics: phpMyAdmin, Google Analytics for user insights.
+              </p>
             </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+            <li class="timeline-item">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/group-1.JPG" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+              <h4 class="h4 timeline-item-title">Recognize Handwritten Letters</h4>
 
-                <div class="blog-content">
+              <span>2023 - 2025</span>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Clermont-Ferrand</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">2024</time>
-                  </div>
-
-                  <h4 class="h4 blog-item-title">Brasserie - Rock acoustique</h4>
-
-                  <p class="blog-text">
-                    Les meilleurs morceaux de notre groupe, en acoustique, au British Book Club.
-                  </p>
-
-                </div>
-
-              </a>
+              <p class="timeline-text">
+                • Built a real-time handwritten letter recognition app achieving 97% F1-score on 26 uppercase and lowercase letters (+ digits)<br><br>
+                • Designed a lightweight CNN model with a VGG16 head, optimized for web performance and deployed in production<br><br>
+                • Trained on 700MB of data using PyTorch and ONNX, with instant client-side inference with ONNX Runtime, React & Tailwind CSS
+              </p>
             </li>
+          </ol>
 
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/singing-1.JPG" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Clermont-Ferrand</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">2024</time>
-                  </div>
-
-                  <h4 class="h4 blog-item-title">Bar - Rock</h4>
-
-                  <p class="blog-text">
-                    Ambiance endiablée dans la semi-pénombre au Caveau des Anges.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/guitar-1.JPG" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Clermont-Ferrand</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">2024</time>
-                  </div>
-
-                  <h4 class="h4 blog-item-title">Brasserie - Acoustique</h4>
-
-                  <p class="blog-text">
-                    Inauguration de ma guitare Romie, entre flamenco et chansons populaires.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-          <p class="about-text"></p>
-          <p class="about-text">Et bien d'autres encore !</p>
         </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MSc Applied Mathematics and Statistics</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Université Clermont Auvergne<br><br>
+                - Machine Learning | Deep Learning<br>
+                - Data mining | text mining<br>
+                - Time series forecasting<br>
+                - Bayesian statistics<br>
+                - Stochastic algorithm | Markov chain | genetic algorithm<br>
+                - Linear optimization | mathematical modeling | simplex algorithm<br>
+                - Database | SQL<br>
+                - Introduction to financial mathematics<br>
+                - Survival analysis | failure prediction
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BSc Computer Science</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Université Clermont Auvergne<br><br>
+                - Collaborative projects | Git | GitHub Actions | code reviews<br>
+                - Text recognition | OpenCV | Python<br>
+                - Scientific libraries | Numpy | Matplotlib | Pandas | SymPy<br>
+                - Linux | Command Line Interface | Docker (intro)<br>
+                - Mathematical finance basics | discounting | compound interest | IRR<br>
+                - Algorithmics | dynamic programming | graph theory | C++ | performance testing<br>
+                - Formal languages | regular expressions | automata | language creation | ANTLR4 | Java<br>
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+
 
 
         <!--
           - service
         -->
-        <section class="service">
+        <section class="service" style="display: none;">
 
           <h3 class="h3 service-title">Ce que je fais</h3>
 
