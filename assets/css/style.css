@@ -90,8 +90,8 @@
   );
   --text-gradient-yellow: linear-gradient(
           to right,
-          hsl(45, 100%, 72%),
-          hsl(35, 100%, 68%)
+          var(--main-300),
+          var(--main-600)
   );
 
   /* solid */
@@ -218,7 +218,7 @@ article {
 .separator {
   width: 100%;
   height: 1px;
-  background: var(--jet);
+  background: var(--color-gray-300);
   margin: 16px 0;
 }
 
