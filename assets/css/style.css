@@ -26,6 +26,30 @@
     --color-gray-800: oklch(0.278 0.033 256.848);
     --color-gray-900: oklch(0.21 0.034 264.665);
     --color-gray-950: oklch(0.13 0.028 261.692);
+
+    --color-indigo-50: oklch(0.962 0.018 272.314);
+    --color-indigo-100: oklch(0.93 0.034 272.788);
+    --color-indigo-200: oklch(0.87 0.065 274.039);
+    --color-indigo-300: oklch(0.785 0.115 274.713);
+    --color-indigo-400: oklch(0.673 0.182 276.935);
+    --color-indigo-500: oklch(0.585 0.233 277.117);
+    --color-indigo-600: oklch(0.511 0.262 276.966);
+    --color-indigo-700: oklch(0.457 0.24 277.023);
+    --color-indigo-800: oklch(0.398 0.195 277.366);
+    --color-indigo-900: oklch(0.359 0.144 278.697);
+    --color-indigo-950: oklch(0.257 0.09 281.288);
+
+    --main-50: var(--color-indigo-50);
+    --main-100: var(--color-indigo-100);
+    --main-200: var(--color-indigo-200);
+    --main-300: var(--color-indigo-300);
+    --main-400: var(--color-indigo-400);
+    --main-500: var(--color-indigo-500);
+    --main-600: var(--color-indigo-600);
+    --main-700: var(--color-indigo-700);
+    --main-800: var(--color-indigo-800);
+    --main-900: var(--color-indigo-900);
+    --main-950: var(--color-indigo-950);
 }
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -171,7 +195,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--white-2); }
+body { background: url("../images/dot.png") ; }
 
 
 
@@ -184,7 +208,7 @@ body { background: var(--white-2); }
 .sidebar,
 article {
   background: var(--white-1);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--color-gray-300);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -327,7 +351,7 @@ main {
 }
 
 .info-content .name {
-  color: var(--smoky-black);
+  color: var(--color-gray-900);
   font-size: var(--fs-3);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
@@ -335,8 +359,8 @@ main {
 }
 
 .info-content .title {
-  color: var(--white-1);
-  background: var(--onyx);
+  color: var(--color-gray-900);
+  background: var(--color-gray-100);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -406,17 +430,17 @@ main {
 }
 
 .contact-title {
-  color: var(--smoky-black);
+  color: var(--color-gray-600);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
   margin-bottom: 6px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 10px;
 }
 
-.contact-info :is(.contact-link, time, address) {
-  color: var(--smoky-black);
+.contact-info :is(.contact-link, time, time a, address) {
+  color: var(--color-gray-900);
   font-size: var(--fs-7);
 }
 
@@ -1598,7 +1622,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article {
     width: 950px;
-    box-shadow: var(--shadow-5);
   }
 
 

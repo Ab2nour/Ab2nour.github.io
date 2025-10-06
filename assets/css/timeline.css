@@ -23,11 +23,11 @@
 }
 
 .timeline-list span {
-    color: hsl(45.2, 90.6%, 16.7%); /* todo: color */
+    color: var(--color-gray-700); /* todo: color */
     font-weight: var(--fw-400);
-    line-height: 1.6;
-    background-color: #fff6e8; /* todo: color */
-    border-radius: 5%;
+    line-height: 1.75;
+    background-color: var(--color-gray-100); /* todo: color */
+    border-radius: 10%;
     width: fit-content;
     padding: 0 5px;
     margin-left: -5px;
@@ -42,7 +42,7 @@
     left: -30px;
     width: 1px;
     height: calc(100% + 50px);
-    background: hsl(0, 0%, 86.7%); /* todo: color */
+    background: var(--color-gray-300);
 }
 
 .timeline-item::after {
@@ -52,9 +52,9 @@
     left: -33px;
     height: 6px;
     width: 6px;
-    background: var(--text-gradient-yellow); /* todo: color */
+    background: var(--main-500); /* todo: color */
     border-radius: 50%;
-    box-shadow: 0 0 0 4px hsl(0, 0%, 93.3%); /* todo: color */
+    box-shadow: 0 0 0 4px var(--main-100); /* todo: color */
 }
 
 .timeline-text {
