@@ -2,6 +2,7 @@
     border: 1px solid var(--color-gray-300);
     border-radius: 15px;
     padding: 24px;
+    margin-bottom: 30px;
 }
 
 .project-description {
@@ -15,6 +16,7 @@
     font-style: italic;
     margin-right: 18px;
     margin-bottom: 6px;
+    max-width: 400px;
 }
 
 /* todo: project-title class already exists => replace its content with project-name's */
