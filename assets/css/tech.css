@@ -1,0 +1,40 @@
+.tech-icon-box-list {
+    display: flex;
+    margin: 16px 0 32px;
+}
+
+.tech-icon-box {
+    border: 1px solid var(--color-gray-300);
+    padding: 6px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: max-content;
+    margin: 0 4px;
+    flex-direction: column;
+}
+
+.tech-icon {
+    width: 26px;
+}
+
+.tech-name {
+    color: var(--color-gray-600);
+    font-size: 12px;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.3s;
+    position: relative;
+    top: 12px;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.tech-icon-box:hover {
+    cursor: pointer;
+}
+
+.tech-icon-box:hover .tech-name {
+    opacity: 1;
+}

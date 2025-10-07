@@ -1,5 +1,6 @@
-@import "timeline.css";
 @import "icon.css";
+@import "tech.css";
+@import "timeline.css";
 
 /*-----------------------------------*\
   #style.css
@@ -187,11 +188,11 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
-  color: var(--white-2);
+  background: var(--main-50);
+  color: var(--main-900);
 }
 
-:focus { outline-color: var(--orange-yellow-crayola); }
+:focus { outline-color: var(--main-600); }
 
 html { font-family: var(--ff-poppins); }
 
