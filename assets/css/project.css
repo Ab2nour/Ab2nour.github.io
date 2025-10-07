@@ -22,6 +22,8 @@
 /* todo: project-title class already exists => replace its content with project-name's */
 .project-name {
     margin-bottom: 24px;
+    border-bottom: 1px solid var(--color-gray-300);
+    padding-bottom: 8px;
 }
 
 .project-illustration-caption {
