@@ -1,40 +1,94 @@
-.tech-icon-box-list {
-    display: flex;
+.tech-container {
+    position: relative;
+    overflow-y: hidden;
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-gray-300);
+    border-radius: 12px;
+    padding: 16px;
     margin: 16px 0 32px;
 }
 
+.tech-icon-box-list {
+    display: flex;
+    margin: 0 0 16px;
+    gap: 8px;
+}
+
 .tech-icon-box {
+    position: relative;
+    width: 40px;
+    height: 40px;
     border: 1px solid var(--color-gray-300);
-    padding: 6px 8px;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
-    width: max-content;
-    margin: 0 4px;
-    flex-direction: column;
-}
-
-.tech-icon {
-    width: 26px;
-}
-
-.tech-name {
-    color: var(--color-gray-600);
-    font-size: 12px;
-    font-family: "JetBrains Mono", monospace;
-    transition: 0.3s;
-    position: relative;
-    top: 12px;
-    opacity: 0;
-    height: 0;
-    width: 0;
+    transition: transform 0.2s ease;
+    background-color: #fff;
 }
 
 .tech-icon-box:hover {
     cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-icon {
+    width: 22px;
+    height: 22px;
+}
+
+/* tooltip */
+.tech-name {
+    position: absolute;
+    bottom: -30px;
+    background: var(--color-gray-800);
+    color: white;
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: "JetBrains Mono", monospace;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: all 0.2s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* tooltip arrow */
+.tech-name::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent transparent var(--color-gray-800) transparent;
 }
 
 .tech-icon-box:hover .tech-name {
     opacity: 1;
+    transform: translateY(2px);
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid var(--color-gray-300);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-inner {
+    background: #ffffff;
+    width: 220px;
+    height: 220px;
+}
+
+.circle-outer {
+    background: var(--color-gray-50);
+    width: 350px;
+    height: 350px;
 }

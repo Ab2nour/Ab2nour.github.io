@@ -146,16 +146,16 @@
         - #NAVBAR
       -->
 
-      <nav class="navbar" style="display: none;">
+      <nav class="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link data-link-name="about">Présentation</button>
+            <button class="navbar-link  active" data-nav-link data-link-name="about"><span>Resume</span></button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link data-link-name="resume">Biographie</button>
+            <button class="navbar-link" data-nav-link data-link-name="resume"><span>Biographie</span></button>
           </li>
 
 <!--          <li class="navbar-item">-->
@@ -163,7 +163,7 @@
 <!--          </li>-->
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link data-link-name="contact">Contact</button>
+            <button class="navbar-link" data-nav-link data-link-name="contact"><span>Contact</span></button>
           </li>
 
         </ul>
@@ -186,10 +186,14 @@
           <p>I'm Abdenour, a Junior Machine Learning Engineer.</p>
         </section>
 
-        <div>
+        <div class="tech-container">
+          <h3 class="h3" style="margin-bottom: 12px;">Technologies</h3>
           <div>
-            <div></div>
+            <div class="circle circle-outer">
+              <div class="circle circle-inner"></div>
+            </div>
           </div>
+
           <div class="tech-icon-box-list">
             <div class="tech-icon-box">
               <img class ="tech-icon" src="assets/images/logo/python.svg" alt="">
@@ -198,6 +202,14 @@
             <div class="tech-icon-box">
               <img class ="tech-icon" src="assets/images/logo/pytorch.svg" alt="">
               <div class="tech-name">PyTorch</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/keras.svg" alt="">
+              <div class="tech-name">Keras</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/tensorflow.svg" alt="">
+              <div class="tech-name">TensorFlow</div>
             </div>
             <div class="tech-icon-box">
               <img class ="tech-icon" src="assets/images/logo/numpy.svg" alt="">
@@ -211,9 +223,31 @@
               <img class ="tech-icon" src="assets/images/logo/pandas.svg" alt="">
               <div class="tech-name">Pandas</div>
             </div>
+          </div>
+          <div class="tech-icon-box-list">
             <div class="tech-icon-box">
               <img class ="tech-icon" src="assets/images/logo/git.svg" alt="">
               <div class="tech-name">git</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/github.svg" alt="">
+              <div class="tech-name">GitHub</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/ci.svg" alt="">
+              <div class="tech-name">CI / CD</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/postgresql.svg" alt="">
+              <div class="tech-name">PostGreSQL</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/uv.svg" alt="">
+              <div class="tech-name">uv</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/ruff.svg" alt="">
+              <div class="tech-name">Ruff</div>
             </div>
           </div>
         </div>
@@ -531,40 +565,11 @@
         </header>
 
         <section class="about-text">
-          <p>Je suis Abdenour, et mon nom de scène est Ab2. Chanteur, mais avant tout guitariste, et bien qu'aussi compositeur, je joue principalement des reprises.</p>
+          <p>Je suis Abdenour</p>
         </section>
 
         <section class="about-text">
           <img src="assets/images/bio-1.jpg" alt="" style="width: 100%; border-radius: 15px;" loading="lazy">
-        </section>
-
-        <section class="about-text">
-          <p>Ma philosophie est de reprendre le plus complètement possible les morceaux que je joue, dans la mesure de ce qu'il est humainement possible de faire à la guitare, en poussant ma guitare et ma dextérité dans leurs retranchements.</p>
-          <p>C'est pourquoi, en plus du traditionnel accompagnements <i>(jouer les accords)</i>, j'inclus beaucoup de percussions afin de reproduire le rythme du morceau. Je n'hésite pas à inclure des parties sifflées pour imiter les parties instrumentales des morceaux.</p>
-        </section>
-
-          <section class="about-text">
-            <img src="assets/images/guitar-3.jpg" alt="" style="width: 100%; border-radius: 15px;" loading="lazy">
-          </section>
-
-        <section class="about-text">
-          <p>Ma technique de jeu est donc uniquement à la main, sans médiator, et sur guitare flamenco, parfaitement adaptée pour ce style rythmique et percussif.</p>
-          <p>Ma belle guitare flamenco, s'appelle Romie et je l'emmène partout où je vais : sur scène, dans la rue, à chaque anniversaire, etc. Elle a même déjà été griffée par un chat, laissant une petite trace <i>(Romie va bien)</i>.</p>
-
-        </section>
-
-
-        <section class="about-text">
-          <p>J'aime aussi reprendre des morceaux originaux, n'ayant jamais été faits ou peu explorés à la guitare, dans le domaine du rap par exemple : Lose Yourself d'Eminem, Feel Good Inc. de Gorillaz ou même Désolé de Sexion d'Assaut sont tant de morceaux que j'ai été amené à explorer.</p>
-          <p>Mon autre domaine de prédilection étant bien sûr les reprises rock acoustique, un de mes classiques étant Highway to Hell d'AC/DC.</p>
-        </section>
-
-        <div style="display: flex; justify-content: center; padding: 20px 10px 40px;">
-          <iframe loading="lazy" style="border-radius: 15px; width: 100%; aspect-ratio: 16 / 9;"  src="https://www.youtube-nocookie.com/embed/iPr3FhMwY94" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
-        </div>
-
-        <section class="about-text">
-          <p>Bien évidemment, mon objectif numéro 1 est toujours le même : faire chanter tout le monde avec moi ! J'ai d'ailleurs une tactique imparable pour ça : je finis tous mes concerts sur Les Champs-Élysées de Joe Dassin <i>(ça marche à tous les coups)</i>.</p>
         </section>
       </article>
 
@@ -580,12 +585,7 @@
         </header>
 
 
-        <p class="about-text">Je suis à votre disposition pour organiser un concert pour votre événement, restaurant, bar, ou tout autre projet. Je peux être en mesure de prodiguer tout le matériel nécessaire au concert.</p>
-        <p class="about-text">Contactez-moi sur Instagram pour en savoir plus : <a href="https://www.instagram.com/ab2nour_musique" style="display: inline;color: #ffdb70;">@ab2nour_musique</a>.</p>
-        
-        <section class="about-text">
-          <img src="assets/images/bio-2.jpg" alt="" style="width: 100%; border-radius: 15px;" loading="lazy">
-        </section>
+        <p class="about-text">Je suis Abdenour</p>
 
 
       </article>
