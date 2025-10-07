@@ -1,5 +1,6 @@
 @import "icon.css";
 @import "navbar.css";
+@import "project.css";
 @import "tech.css";
 @import "timeline.css";
 
@@ -197,15 +198,21 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: url("../images/dot.png") ; }
-
-
+p {
+  line-height: 1.75;
+}
 
 
 
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
+
+body { background: url("../images/dot.png") ; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
 
 .sidebar,
 article {

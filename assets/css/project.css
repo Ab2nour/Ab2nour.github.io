@@ -1,0 +1,30 @@
+.project-box {
+    border: 1px solid var(--color-gray-300);
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.project-description {
+    font-style: italic;
+    color: var(--color-gray-700);
+    margin-bottom: 18px;
+}
+
+/* todo: project-img class already exists => replace its content with project-illustration's */
+.project-illustration {
+    font-style: italic;
+    margin-right: 18px;
+    margin-bottom: 6px;
+}
+
+/* todo: project-title class already exists => replace its content with project-name's */
+.project-name {
+    margin-bottom: 24px;
+}
+
+.project-illustration-caption {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-800);
+    padding: 4px;
+    font-size: 14px;
+}

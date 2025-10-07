@@ -23,6 +23,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--  todo: for Inter font, import all font weights & change CSS accordingly -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
   <meta name="description" content="Abdenour, Machine Learning Engineer (Paris, France).">
 
@@ -59,7 +61,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="assets/images/avatar.png" alt="" width="80" style="border-radius: 5%;">
+          <img src="assets/images/avatar.png" alt="" loading="lazy" width="80" style="border-radius: 5%;">
         </figure>
 
         <div class="info-content">
@@ -155,7 +157,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link data-link-name="resume"><span>Biographie</span></button>
+            <button class="navbar-link" data-nav-link data-link-name="resume"><span>Projects</span></button>
           </li>
 
 <!--          <li class="navbar-item">-->
@@ -196,57 +198,65 @@
 
           <div class="tech-icon-box-list">
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/python.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/python.svg" alt="" loading="lazy">
               <div class="tech-name">Python</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/pytorch.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/pytorch.svg" alt="" loading="lazy">
               <div class="tech-name">PyTorch</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/keras.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/keras.svg" alt="" loading="lazy">
               <div class="tech-name">Keras</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/tensorflow.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/scikit-learn.svg" alt="" loading="lazy">
+              <div class="tech-name">Scikit-Learn</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/tensorflow.svg" alt="" loading="lazy">
               <div class="tech-name">TensorFlow</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/numpy.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/numpy.svg" alt="" loading="lazy">
               <div class="tech-name">Numpy</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/matplotlib.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/matplotlib.svg" alt="" loading="lazy">
               <div class="tech-name">Matplotlib</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/pandas.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/pandas.svg" alt="" loading="lazy">
               <div class="tech-name">Pandas</div>
+            </div>
+            <div class="tech-icon-box">
+              <img class ="tech-icon" src="assets/images/logo/jupyter.svg" alt="" loading="lazy">
+              <div class="tech-name">Jupyter</div>
             </div>
           </div>
           <div class="tech-icon-box-list">
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/git.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/git.svg" alt="" loading="lazy">
               <div class="tech-name">git</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/github.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/github.svg" alt="" loading="lazy">
               <div class="tech-name">GitHub</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/ci.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/ci.svg" alt="" loading="lazy">
               <div class="tech-name">CI / CD</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/postgresql.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/postgresql.svg" alt="" loading="lazy">
               <div class="tech-name">PostGreSQL</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/uv.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/uv.svg" alt="" loading="lazy">
               <div class="tech-name">uv</div>
             </div>
             <div class="tech-icon-box">
-              <img class ="tech-icon" src="assets/images/logo/ruff.svg" alt="">
+              <img class ="tech-icon" src="assets/images/logo/ruff.svg" alt="" loading="lazy">
               <div class="tech-name">Ruff</div>
             </div>
           </div>
@@ -504,7 +514,7 @@
           <p class="about-text">Contactez-moi sur Instagram pour en savoir plus : <a href="https://www.instagram.com/ab2nour_musique" style="display: inline;color: #ffdb70;">@ab2nour_musique</a>.</p>
 
           <section class="about-text">
-            <img src="assets/images/presentation-1.jpg" alt="" style="width: 100%; border-radius: 15px;" loading="lazy">
+            <img src="assets/images/presentation-1.jpg" alt="" loading="lazy" style="width: 100%; border-radius: 15px;" loading="lazy">
           </section>
         </section>
 
@@ -561,12 +571,44 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Biographie</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="about-text">
           <p>Je suis Abdenour</p>
         </section>
+
+        <div class="project-box">
+          <h3 class="h3 project-name">Décomposition d’un graphe non-orienté en graphe fortement connexe</h3>
+          <div style="display: flex;">
+            <figure>
+              <img class="project-illustration" src="assets/images/projects/orientate-undirected-graph.png" alt="" loading="lazy">
+              <figcaption class="project-illustration-caption"><b>Fig.</b> Excerpt from the LaTeX report</figcaption>
+            </figure>
+            <div>
+              <p class="project-description">L’objectif de ce projet est, étant un graphe non-orienté, de le transformer en graphe fortement connexer, en utilisant la décomposition en chaîne de Smidt.</p>
+
+              <div class="tech-icon-box-list">
+                <div class="tech-icon-box">
+                  <img class ="tech-icon" src="assets/images/logo/python.svg" alt="" loading="lazy">
+                  <div class="tech-name">Python</div>
+                </div>
+                <div class="tech-icon-box">
+                  <img class ="tech-icon" src="assets/images/logo/networkx.svg" alt="" loading="lazy">
+                  <div class="tech-name">NetworkX</div>
+                </div>
+                <div class="tech-icon-box">
+                  <img class ="tech-icon" src="assets/images/logo/matplotlib.svg" alt="" loading="lazy">
+                  <div class="tech-name">Matplotlib</div>
+                </div>
+                <div class="tech-icon-box">
+                  <img class ="tech-icon" src="assets/images/logo/jupyter.svg" alt="" loading="lazy">
+                  <div class="tech-name">Jupyter</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <section class="about-text">
           <img src="assets/images/bio-1.jpg" alt="" style="width: 100%; border-radius: 15px;" loading="lazy">
