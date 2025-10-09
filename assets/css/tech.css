@@ -12,6 +12,7 @@
     display: flex;
     margin: 0 0 16px;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .tech-icon-box {
@@ -28,7 +29,6 @@
 }
 
 .tech-icon-box:hover {
-    cursor: pointer;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
