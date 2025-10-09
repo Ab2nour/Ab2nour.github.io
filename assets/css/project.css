@@ -31,4 +31,14 @@
     color: var(--color-gray-800);
     padding: 4px;
     font-size: 14px;
+    max-width: 400px;
+}
+
+.project-link {
+    display: inline;
+    color: var(--color-gray-600);
+    font-weight: 500;
+    margin-left: 2px;
+    font-size: 0.85em;
+    font-family: "JetBrains Mono", monospace;
 }
