@@ -34,7 +34,7 @@
 
 .tech-icon {
     width: 22px;
-    height: 22px;
+    max-height: 22px;
 }
 
 /* tooltip */
@@ -91,4 +91,8 @@
     background: var(--color-gray-50);
     width: 350px;
     height: 350px;
+}
+
+[data-page="about"] .tech-icon-box-list {
+    margin-top: 16px;
 }
