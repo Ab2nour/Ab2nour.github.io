@@ -16,9 +16,11 @@
     justify-content: center;
     align-items: center;
     padding: 0 10px;
+    gap: 20px;
 }
 
 .navbar-link {
+    --fs-8: 14px;
     color: var(--color-gray-800);
     font-size: var(--fs-8);
     padding: 20px 7px;
@@ -31,27 +33,43 @@
 .navbar-link.active span { color: var(--main-700); }
 
 
-.navbar { border-radius: 20px 20px 0 0; }
+@media (min-width: 580px) {
+    .navbar {
+        border-radius: 20px 20px 0 0;
+    }
 
-.navbar-list { gap: 20px; }
+    .navbar-list {
+        gap: 20px;
+    }
 
-.navbar-link { --fs-8: 14px; }
-.navbar-link { --fs-8: 15px; }
-
-.navbar {
-    position: absolute;
-    bottom: auto;
-    top: 0;
-    left: auto;
-    right: 0;
-    width: max-content;
-    border-radius: 0 20px;
-    padding: 0 20px;
+    .navbar-link {
+        --fs-8: 14px;
+    }
 }
 
-.navbar-list {
-    gap: 30px;
-    padding: 0 20px;
+@media (min-width: 768px) {
+    .navbar-link { --fs-8: 15px; }
 }
 
-.navbar-link { font-weight: var(--fw-500); }
+
+@media (min-width: 1024px) {
+    .navbar {
+        position: absolute;
+        bottom: auto;
+        top: 0;
+        left: auto;
+        right: 0;
+        width: max-content;
+        border-radius: 0 20px;
+        padding: 0 20px;
+    }
+
+    .navbar-list {
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .navbar-link {
+        font-weight: var(--fw-500);
+    }
+}
